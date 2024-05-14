@@ -1,10 +1,13 @@
+import './App.css';
+import Bookshelf from './Bookshelf.jsx';
+
 const App = () => {
   return (
-    <div>
-      <h1>React App</h1>
-      <p>Welcome to the React App</p>
-    </div>
+    <>
+      <h1>My Bookshelf</h1>
+      <Bookshelf />
+    </>
   );
-}
+};
 
 export default App; 
